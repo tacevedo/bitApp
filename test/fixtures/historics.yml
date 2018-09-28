@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  users: one
+  exchanges: one
+  currencies: one
+  date: 2018-09-27
+  value: 9.99
+
+two:
+  users: two
+  exchanges: two
+  currencies: two
+  date: 2018-09-27
+  value: 9.99
