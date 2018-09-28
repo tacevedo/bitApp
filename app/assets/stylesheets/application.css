@@ -21,18 +21,23 @@ nav{
   background-color: #1d5e77;
 }
 nav .navbar-brand{
-  background-color: #f6f6db;
+  /* background-color: #f6f6db */
+  background: #f6f6db;
+  background: -moz-linear-gradient(top, #f6f6db 0%, #f2b2b5 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f6f6db), color-stop(100%, #f2b2b5));
+  background: -webkit-linear-gradient(top, #f6f6db 0%, #f2b2b5 100%);
+  background: -o-linear-gradient(top, #f6f6db 0%, #f2b2b5 100%);
+  background: -ms-linear-gradient(top, #f6f6db 0%, #f2b2b5 100%);
+  background: linear-gradient(to bottom, #f6f6db 0%, #f2b2b5 100%);
   color: #1d5e77;
   padding: 10px 30px;
   border-radius: 3px;
   font-weight: bold;
 }
 nav a{  color: #fff;}
-nav a:hover{  color: #1a789c;}
+nav a:hover{  color: #f6f6db;}
 
 footer{
-  /* position: fixed;
-  bottom: 0; */
   width: 100%;
   padding: 20px;
   color: #fff;
@@ -44,7 +49,16 @@ footer{
   min-height: 100%;
   margin: 0 auto;
   width: 80%;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
-h2{  color: #1d5e77;}
+.btn-send{
+  background-color: #f6f6db;
+  color: #1d5e77;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(29,94,119,0.5);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(29,94,119,0.5);
+  box-shadow: 0px 0px 2px 0px rgba(29,94,119,0.5);
+}
