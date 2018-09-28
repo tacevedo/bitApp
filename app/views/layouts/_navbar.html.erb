@@ -26,10 +26,10 @@
         <ul class="dropdown-menu" role="menu">
           <% if user_signed_in? %>
             <li><%= link_to 'Profile', edit_user_registration_path(current_user), method: :get, class: "dropdown-item" %></li>
-            <li><%= link_to 'Log out', destroy_user_session_path, method: :delete, class: "dropdown-item" %></li>
+            <li><%= link_to 'Cierre sesion', destroy_user_session_path, method: :delete, class: "dropdown-item" %></li>
           <% else %>
-            <li><%= link_to 'Sign in', new_user_session_path, class: "dropdown-item" %></li>
-            <li><%= link_to 'Sign up', new_user_registration_path, class: "dropdown-item" %></li>
+            <li><%= link_to 'Inicio Sesion', new_user_session_path, class: "dropdown-item" %></li>
+            <li><%= link_to 'Registro', new_user_registration_path, class: "dropdown-item" %></li>
           <% end %>
 
         </ul>
