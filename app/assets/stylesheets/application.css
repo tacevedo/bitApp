@@ -13,8 +13,26 @@
  *= require_tree .
  *= require_self
  */
-.container{  padding-top: 100px;}
+html,body{height: 100%;}
 nav{
-  background-color: blue;
+  background-color: #1d5e77;
+}
+nav a{  color: #fff;}
+nav a:hover{  color: #def2f9;}
+
+footer{
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+  padding: 20px;
   color: #fff;
+  background-color: #1d5e77;
+  text-align: center;
+}
+
+.container-home{
+  min-height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 100px;
 }
