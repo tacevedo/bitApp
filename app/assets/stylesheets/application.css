@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+.container{  padding-top: 100px;}
+nav{
+  background-color: blue;
+  color: #fff;
+}
