@@ -1,9 +1,12 @@
 class AdministrationController < ApplicationController
-  def index
-    if current_user.admin?
 
-    else
-      redirect_to root_path
-    end
+  def index
+    authorize! :admin, :administration
+    # authorize! :administration, :logs
+    # if current_user.admin?
+    #
+    # else
+    #   redirect_to root_path
+    # end
   end
 end
