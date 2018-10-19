@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root to: "home#home"
   get 'dashboard', to: 'dashboard#index'
   get 'administration', to: 'administration#index'
+  GET 'recipes/random'
+GET 'recipes/:id/information'
 end

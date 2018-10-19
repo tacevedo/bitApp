@@ -9,7 +9,7 @@ class Ability
       if user.admin?
         can :admin, :administration
       end
-      if user && user.visit?
+      if user.visit?
         can :visit, :dashboard
       end
       # if user.admin?
