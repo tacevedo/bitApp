@@ -1,9 +1,12 @@
 class DashboardController < ApplicationController
+
   def index
-    if current_user
-      
-    else
-      redirect_to root_path
-    end
+    authorize! :visit, :dashboard
+    # authorize! :dashboard, :logs
+    # if current_user.visit?
+    #
+    # else
+    #   redirect_to root_path
+    # end
   end
 end

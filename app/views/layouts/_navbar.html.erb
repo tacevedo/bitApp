@@ -11,10 +11,16 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li> -->
+      </li>-->
+
+      <% if current_user && current_user.visit?%>
+        <li class: "nav-item"><%= link_to 'Tu Dashboard', dashboard_path, class: "nav-link" %></li>
+      <% elsif current_user && current_user.admin? %>
+        <li class: "nav-item"><%= link_to 'Administracion', administration_path, class: "nav-link" %></li>
+      <% else %>
+        <li></li>
+      <% end %>
+
       <li class="nav-item dropdown form-inline">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <% if user_signed_in?%>
