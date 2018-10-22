@@ -5,14 +5,14 @@ window.onload = function() {
       labels: getDays(),
       datasets: [{
           label: 'exchange1',
-          data: [12, 19, 3, 5, 2, 3],
+          data: [12, 19, 3, 5, 2, 3, 3, 5, 5, 8],
           borderColor: "rgba(16,133,135,1)",
           borderWidth: 1,
           fill: false
       },
       {
           label: 'exchange2',
-          data: [1, 10, 15, 9, 8, 9],
+          data: [1, 10, 15, 9, 8, 9, 10, 11, 11, 12 ,13],
           borderColor: "rgba(108,30,135,1)",
           borderWidth: 1,
           fill: false
@@ -26,10 +26,19 @@ window.onload = function() {
           scales: {
             yAxes: [{
               ticks: {
-                  // Include a dollar sign in the ticks
-                  callback: function(value, index, values) {
-                      return '$' + value;
-                  }
+                callback: function(value, index, values) {
+                    return '$' + value;
+                }
+              },
+              scaleLabel: {
+                display: true,
+                labelString: 'Precio'
+              }
+            }],
+            xAxes: [{
+              scaleLabel: {
+                display: true,
+                labelString: 'Fecha'
               }
             }]
           }
