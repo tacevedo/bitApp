@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  def index
-
+  def home
+    puts Bitbay::API.get_ticker()
   end
 end
