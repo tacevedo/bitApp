@@ -17,7 +17,7 @@ window.onload = function() {
           borderWidth: 1,
           fill: false
       }]
-  }
+  };
 
   var myChart = new Chart(ctx, {
       type: 'line',
@@ -52,3 +52,4 @@ window.onload = function() {
     return daysAgo.sort((i, a) =>  i > a)
   }
 };
+// ajax a info ruta, localhost:3000/info
