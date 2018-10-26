@@ -7,5 +7,31 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.destroy_all
-useradmin = User.create! :email => 'tam@gm.com', :password => '123456', :password_confirmation => '123456', :role => 0
-uservisit = User.create! :email => 'pin@gm.com', :password => '123456', :password_confirmation => '123456', :role => 1
+Exchange.destroy_all
+Currency.destroy_all
+Historic.destroy_all
+5.times do |i|
+   u = User.create!(email: "email#{i}@gmail.com", password:"123456" )
+   puts "user listo #{u.id}"
+   e = Exchange.create!(name: "exchange #{i}", url: "url/echange#{i}")
+   puts "ex listo"
+   c = Currency.create!(name: "currencie #{i}")
+   puts "curren listo"
+   5.times do |j|
+     # h= Historic.create(date: Time.now, value: 1000, users: u, exchanges: e, currencies: c)
+     #  h.save!
+
+     # h = Historic.new(date: Time.now, value: 1000)
+     # h.users << u
+     # h.exchanges << e
+     # h.currencies << c
+     # h.save
+
+   end
+#
+# u.save!
+# e.save!
+# c.save!
+# h.save!
+end
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
