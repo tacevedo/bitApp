@@ -24,7 +24,7 @@ gem 'chart-js-rails'
 gem 'activeadmin'
 gem 'chartkick'
 gem 'groupdate'
-
+gem 'webpacker'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
