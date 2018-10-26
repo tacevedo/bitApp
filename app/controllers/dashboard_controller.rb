@@ -2,7 +2,8 @@ class DashboardController < ApplicationController
   before_action :authenticate_user!
 
   def index
-
+      @data = ExchangeInfo::Ticker.getData()
+    @ex1actual = @data
     @currencies = Currency.pluck(:name, :id)
     @exchanges = Exchange.pluck(:name, :id)
     # @users = Historic.all

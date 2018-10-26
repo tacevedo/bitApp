@@ -56,13 +56,18 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // ajax a info ruta, localhost:3000/info
   $.ajax({
-    url: 'localhost:3000/info',
+    url: 'http://localhost:3000/info',
     type: 'GET',
-    dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
-    data: {}
+    dataType: 'json',
+    success: function(data) {
+
+      console.log(data.bitbay)
+
+    }
   })
-  .done(function(response) {
-    console.log("resp" + response);
+  .done(function(data) {
+    console.log("resp" + data);
+    // $("#bit1").append(data);
   })
   .fail(function() {
     console.log("error");
