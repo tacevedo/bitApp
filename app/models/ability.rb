@@ -16,15 +16,6 @@ class Ability
 
       # if user.admin?
       #   can :manage, :all
-      # end
-      # if user.visit?
-      #   can [:show, :update, :index, :read], Historic, Dahboard
-      # end
-
-
-
-      # if user.admin?
-      #   can :manage, :all
       # else
       #   can :read, :all
       # end

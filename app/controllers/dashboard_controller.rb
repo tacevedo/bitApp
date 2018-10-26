@@ -1,18 +1,20 @@
 class DashboardController < ApplicationController
-  # authorize_resource :only => [:index]
   before_action :authenticate_user!
+
   def index
 
-    # authorize! :dashboard, :logs
-    # if current_user.visit?
-    #
-    # else
-    #   redirect_to root_path
-    # end
-    # @users = User.all
-    # @currencies = Currency.all
-    # @exchanges = Exchange.all
+    @currencies = Currency.pluck(:name, :id)
+    @exchanges = Exchange.pluck(:name, :id)
     # @users = Historic.all
+
+    # buscar el historic donde este currenciix  exchangeid
+    # @result = Historic.all.where("exchangeid == :ex_id AND currencyid == :curr_id", {ex_id: @exchange.id, curr_id: @currency.id})
+
+  end
+
+  def exchange_data
+      @data = ExchangeInfo::Ticker.getData()
+      render json: @data
   end
 
   def info

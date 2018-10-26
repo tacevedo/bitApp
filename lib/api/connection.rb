@@ -2,10 +2,12 @@ require 'faraday'
 require 'json'
 
 class Connection
-  BASE = 'https://bitbay.net/API/Public/BTCUSD/ticker.json'
-
-  def self.api
-    Faraday.new(url: BASE) do |faraday|
+  def self.api(exchange_name)
+    exchangesAvailable = {
+      'blockchain' => 'https://blockchain.info/es/ticker',
+      'bitbay' => 'https://bitbay.net'
+    };
+    Faraday.new(url: exchangesAvailable[exchange_name]) do |faraday|
       faraday.response :logger
       faraday.adapter Faraday.default_adapter
       faraday.headers['Content-Type'] = 'application/json'
