@@ -20,7 +20,7 @@ html,body{
 nav{
   background-color: #1d5e77;
 }
-nav .navbar-brand{
+nav a.navbar-brand:link{
   /* background-color: #f6f6db */
   background: #f6f6db;
   background: -moz-linear-gradient(top, #f6f6db 0%, #f2b2b5 100%);
@@ -36,7 +36,15 @@ nav .navbar-brand{
 }
 nav a{  color: #fff;}
 nav a:hover{  color: #f6f6db;}
-
+nav a,
+nav a:link,
+nav a:visited {
+  color: #f6f6db;
+  text-decoration: none;
+}
+.dropdown-menu li a {
+  color: #1d5e77;
+}
 footer{
   width: 100%;
   padding: 20px;
