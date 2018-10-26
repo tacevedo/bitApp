@@ -7,6 +7,13 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module BitApp
+
+  class NoCompression
+   def compress(string)
+     # do nothing
+     string
+   end
+  end
   class Application < Rails::Application
 
     config.assets.initialize_on_precompile = false
