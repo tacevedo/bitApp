@@ -60,9 +60,14 @@ document.addEventListener('DOMContentLoaded', function(){
     type: 'GET',
     dataType: 'json',
     success: function(data) {
-
-      console.log(data.bitbay)
-
+      var bitbay = JSON.stringify(data.bitbay);
+      var blockchain = JSON.stringify(data.blockchain);
+      $("#bit1").append("<p>" + blockchain + "</p>");
+      $("#bit2").append("<p>" + bitbay + "</p>");
+      // $("#bit2usd").append("<p> Dolar" + bitbay.USD + "</p>");
+      // $("#bit2eur").append("<p> Euro" + bitbay.EUR + "</p>");
+      // $("#bit1usd").append("<p> Dolar" + blockchain.USD + "</p>");
+      // $("#bit1eur").append("<p> Euro" + blockchain.EUR + "</p>");
     }
   })
   .done(function(data) {
