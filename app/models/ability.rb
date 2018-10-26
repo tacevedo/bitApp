@@ -6,12 +6,23 @@ class Ability
     #
       user ||= User.new # guest user (not logged in)
       puts "user " + user.email
+
       if user.admin?
-        can :admin, :administration
+        can :manage, :all
+      else user.visit?
+        can :manage, :all, Historic
       end
-      if user.visit?
-        can :visit, :dashboard
-      end
+
+
+      # if user.admin?
+      #   can :manage, :all
+      # end
+      # if user.visit?
+      #   can [:show, :update, :index, :read], Historic, Dahboard
+      # end
+
+
+
       # if user.admin?
       #   can :manage, :all
       # else

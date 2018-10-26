@@ -12,7 +12,7 @@ window.onload = function() {
       },
       {
           label: 'exchange2',
-          data: [1, 10, 15, 9, 8, 9, 10, 11, 11, 12 ,13],
+          data: [1, 10, 15, 9, 8, 9, 10, 11, 11, 12],
           borderColor: "rgba(108,30,135,1)",
           borderWidth: 1,
           fill: false
