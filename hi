@@ -1,0 +1,1000 @@
+ 1020  git reset --hard        <p class="notice"><%= notice %></p>
+ 1021  git reset --hard f05c7461588432afc3ad4c42ec711587e13eaa51
+ 1022  git status
+ 1023  cd ..
+ 1024  git clone https://github.com/tacevedo/E15CP2A1.git
+ 1025  cd E15CP2A1/
+ 1026  bundle
+ 1027  rails g devise:install
+ 1028  bundle
+ 1029  rails g devise:install
+ 1030  bundle install
+ 1031  rails g devise:install
+ 1032  rails db:migrate
+ 1033  rails g devise:install
+ 1034  bundle install
+ 1035  cd ..
+ 1036  cd E15CP2A1/
+ 1037  bundle
+ 1038  rails g migration addUserToHistory user:references
+ 1039  rails db:migrate
+ 1040  rails g migration addNameToUser name
+ 1041  rails g migration addUsernameToUser username
+ 1042  rails g migration addAdminToUser admin:boolean
+ 1043  rails db:migrate
+ 1044  rails g devise:controllers users
+ 1045  rails routes
+ 1046  git status
+ 1047  git add .
+ 1048  git commit -am "navbar logueado y no"
+ 1049  git push origin master
+ 1050  git add .
+ 1051  git commit -am "autenticacion para todo menos index de pics"
+ 1052  rails routes
+ 1053  rails c
+ 1054  git clone https://github.com/tacevedo/E15CP2A1.git
+ 1055  cd E15CP2A1/
+ 1056  rails g devise:install
+ 1057  bundle
+ 1058  rails g devise:install
+ 1059  rails g devise:views
+ 1060  cd ..
+ 1061  git clone https://github.com/tacevedo/E15CP2A1.git
+ 1062  rails g devise:install
+ 1063  bundle
+ 1064  cd E15CP2A1/
+ 1065  rails g devise:install
+ 1066  bundle
+ 1067  rails g devise:install
+ 1068  rails g devise user
+ 1069  rails g devise:views
+ 1070  rails s
+ 1071  rails db:migrate
+ 1072  rails s
+ 1073  git status
+ 1074  git add .
+ 1075  git commit -am "hasta agregar nuevos campos registro name y username y admin"
+ 1076  gir status
+ 1077  git status
+ 1078  rails s
+ 1079  git add .
+ 1080  git commit -am "listo"
+ 1081  git status
+ 1082  git push origin master
+ 1083  sudo apt-get update
+ 1084  sudo apt-get upgrade
+ 1085  sudo apt-get install postgresql-common
+ 1086  sudo apt-get install postgresql-9.6 libpq-dev
+ 1087  psql
+ 1088  sudo apt-get install postgresql-9.6
+ 1089  sudo apt-get install postgresql-10
+ 1090  sudo apt-get install postgresql postgresql-contrib libpq-dev pgadmin3
+ 1091  sudo apt-get install postgresql-9.6
+ 1092  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+ 1093  wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+ 1094  sudo apt-get update
+ 1095  sudo apt-get upgrade
+ 1096  sudo apt-get install postgresql-9.6
+ 1097  sudo apt-get install postgresql-9.6 libpq-dev
+ 1098  sudo apt-get install libpq-dev
+ 1099  psql
+ 1100  ls
+ 1101  cd workspace/desafio/
+ 1102  sudo su - postgre
+ 1103  sudo su - postgres
+ 1104  psql
+ 1105  sudo su - postgres
+ 1106  psql
+ 1107  sudo su - postgres
+ 1108  psql
+ 1109  sudo su - postgres
+ 1110  psql
+ 1111  man psql
+ 1112  psql -d call_list -u tam
+ 1113  psql -d call_list
+ 1114  git clone https://github.com/tacevedo/E16CP1A1.git
+ 1115  cd E16CP1A1/
+ 1116  git status
+ 1117  git add .
+ 1118  git commit -am "add files"
+ 1119  git push origin master
+ 1120  sudo su
+ 1121  sudo su - postgres
+ 1122  sudo su - tam
+ 1123  psql
+ 1124  sudo su - postgress
+ 1125  psql
+ 1126  sudo su - postgress
+ 1127  sudo su - postgress - tam
+ 1128  sudo su - postgress -u tam
+ 1129  sudo su  -u tam
+ 1130  ls
+ 1131  cd workspace/desafio/
+ 1132  sudo su -u postgress
+ 1133  sudo su -u postgres
+ 1134  sudo su - postgres
+ 1135  cd workspace/desafio/
+ 1136  sudo su - tam
+ 1137  psql
+ 1138  sudo su - postgres
+ 1139  git clone https://github.com/tacevedo/E16CP2A1.git
+ 1140  cd E16CP2A1/
+ 1141  git status
+ 1142  git add .
+ 1143  git commit -am "ok"
+ 1144  git push origin master
+ 1145  git add .
+ 1146  git status
+ 1147  git add .
+ 1148  git commit -am "ahora"
+ 1149  git push origin master
+ 1150  sudo su - postgres
+ 1151  cd workspace/desafio/
+ 1152  sudo su - postgres
+ 1153  ls
+ 1154  http-server
+ 1155  npm install -g http-server
+ 1156  cd Descargas/
+ 1157  ls
+ 1158  cd flujo-mobile/
+ 1159  http-server 
+ 1160  cd workspace/desafio/
+ 1161  git clone https://github.com/tacevedo/E19CP1A1.git
+ 1162  cd E19CP1A1/
+ 1163  ls
+ 1164  rails new act19
+ 1165  rails new act19 -d postgresql
+ 1166  rails db:migrate
+ 1167  cd act19/
+ 1168  rails db:migrate
+ 1169  rake db:migrate
+ 1170  rake db:create
+ 1171  rails db:create
+ 1172  bundle
+ 1173  rails db:create
+ 1174  rake db:create
+ 1175  cd ..
+ 1176  psql
+ 1177  /etc/init.d/postgresql status
+ 1178  alter role postgres password null;
+ 1179  find pg_hba
+ 1180  find pg_hba.config
+ 1181  psql --host localhost
+ 1182  cd ..
+ 1183  ls
+ 1184  cd ..
+ 1185  ls
+ 1186  cd etc/postgresql/
+ 1187  cd 9.6/
+ 1188  sudo gedit pg_hba.config
+ 1189  psql --host localhost
+ 1190  cd ..
+ 1191  cd 10/
+ 1192  sudo gedit pg_hba.config
+ 1193  sudo /etc/init.d/postgresql restart
+ 1194  sudo gedit pg_hba.config
+ 1195  sudo /etc/init.d/postgresql restart
+ 1196  sudo -u postgres psql
+ 1197  psql --host localhost
+ 1198  sudo -u tam psql
+ 1199  sudo -u pruena
+ 1200  sudo -u tam
+ 1201  sudo -u tam psql
+ 1202  psql --host localhost
+ 1203  rails g model project_user person:references project:references
+ 1204  rails db:migrate
+ 1205  rails routes
+ 1206  rake routes
+ 1207  rail routes
+ 1208  rails routes
+ 1209  rail routes
+ 1210  rails routes
+ 1211  rails g controller project_user create
+ 1212  rails g controller project_user
+ 1213  rails routes
+ 1214  cd ..
+ 1215  rails new pruena -d postgresql
+ 1216  rails db:create
+ 1217  cd pruena/
+ 1218  rails db:create
+ 1219  gem install pg
+ 1220  rails db:create
+ 1221  rails new act19
+ 1222  cd act19/
+ 1223  rails g model person name:string email:string
+ 1224  cd ..
+ 1225  rails new act19 -d postgresql
+ 1226  cd act19/
+ 1227  rails g controller person name:string email:string
+ 1228  rails g controller proyect name:string
+ 1229  rails g controller project name:string
+ 1230  rails db:migrate
+ 1231  rails db:create
+ 1232  cd ..
+ 1233  rails new act19 -d postgresql
+ 1234  rake db:create
+ 1235  cd act19/
+ 1236  rake db:create
+ 1237  sudo -u tam
+ 1238  sudo -u tam psql
+ 1239  cd ..
+ 1240  rails new act19
+ 1241  cd act19/
+ 1242  rails scaffold g person name:string
+ 1243  rails g scaffold  person name:string
+ 1244  rails g scaffold project  name:string
+ 1245  rails s
+ 1246  rails db:migrate
+ 1247  rails s
+ 1248  rails db:migrate
+ 1249  cd ..
+ 1250  sudo su - postgres
+ 1251  su postgres
+ 1252  cd etc/postgresql/9.6/
+ 1253  sudo gedit pg_hba.conf
+ 1254  sudo -u postgres createuser --superuser tam
+ 1255  postgresql -v
+ 1256  cd ..
+ 1257  /etc/init.d/postgresql stop
+ 1258  apt-get --purge remove postgresql\*
+ 1259  sudo apt-get --purge remove postgresql\*
+ 1260  rm -r /etc/postgresql/
+ 1261  sudo rm -r /etc/postgresql/
+ 1262  sudo rm -r /etc/postgresql-common/
+ 1263  sudo rm -r /var/lib/postgresql/
+ 1264  userdel -r postgres
+ 1265  sudo userdel -r postgres
+ 1266  groupdel postgres
+ 1267  sudo groupdel postgres
+ 1268  sudo apt-get update
+ 1269  sudo apt-get upgrade
+ 1270  sudo apt-get install postgresql-common
+ 1271  sudo apt-get install postgresql-9.6 libpq-dev
+ 1272  /etc/init.d/postgresql status
+ 1273  sudo su - postgres
+ 1274  cd home/tam/workspace/desafio/E19CP1A1/pruena/
+ 1275  rails db:create
+ 1276  cd ..
+ 1277  rails new proyectos -d postgresql
+ 1278  rails db:create
+ 1279  cd proyectos/
+ 1280  rails db:create
+ 1281  rails g scaffold person name:string
+ 1282  rails db:migrate
+ 1283  rails g scaffold project name:string
+ 1284  rails db:migrate
+ 1285  rails g migration CreateJoinTable people projects
+ 1286  rails db:migrate
+ 1287  rails s
+ 1288  rails routes
+ 1289  rails routes
+ 1290  cd ..
+ 1291  rails new proyectospersonas
+ 1292  cd proyectospersonas/
+ 1293  rails db:create
+ 1294  rails g scaffold project  name:string
+ 1295  rails g scaffold person  name:string
+ 1296  rails db:migrate
+ 1297  rails g model intermedia proyect:references person:references
+ 1298  rails db:migrate
+ 1299  rails s
+ 1300  cd workspace/desafio/
+ 1301  rails new todolist2 -d postgresql
+ 1302  cd todolist2/
+ 1303  rails g devise:install
+ 1304  bundle
+ 1305  rails g devise:install
+ 1306  rails s
+ 1307  cd workspace/desafio/todolist2/
+ 1308  bundle
+ 1309  rails g devise:install
+ 1310  rails g devise user
+ 1311  rails db:migrate
+ 1312  rails db:create
+ 1313  rails db:migrate
+ 1314  rails g migration addNameToUser name
+ 1315  rails g migration addPhotoToUser photo
+ 1316  rails g devise:controller users
+ 1317  rails generate devise:controller users
+ 1318  rails routes
+ 1319  rails g devise:views
+ 1320  rails s
+ 1321  rails db:seed
+ 1322  rails s
+ 1323  rails db:migrate
+ 1324  rails g scaffold task name
+ 1325  rail db:migrate
+ 1326  rails db:migrate
+ 1327  rails routes
+ 1328  git init
+ 1329  git remote add origin https://github.com/tacevedo/todolistapp.git
+ 1330  git add .
+ 1331  git commit -am "primero, base"
+ 1332  git push origin master
+ 1333  rails routes
+ 1334  rails generate devise:controllers users
+ 1335  rails g migrate AddPhotoToTask photo
+ 1336  rails g migration AddPhotoToTask photo
+ 1337  rails db:migrate
+ 1338  git status
+ 1339  git add .
+ 1340  git commit -am "avances"
+ 1341  git push origin master
+ 1342  rails g model user_task user:references task:references completed:boolean
+ 1343  rails db:migrate
+ 1344  rails routes
+ 1345  rails g controller user_tasks create
+ 1346  rails c
+ 1347  git status
+ 1348  git add .
+ 1349  git commit -am "mejoras"
+ 1350  git push origin master
+ 1351  rails c
+ 1352  rails routes
+ 1353  git status
+ 1354  git add .
+ 1355  git commit -am "casi"
+ 1356  git push origin master
+ 1357  cd workspace/desafio/todolist2/
+ 1358  rails routes
+ 1359  rails c
+ 1360  rails s
+ 1361  rails c
+ 1362  rails s
+ 1363  git sttaus
+ 1364  git status
+ 1365  git adad .
+ 1366  git add .
+ 1367  git commit -am "avancecs"
+ 1368  git push origin master
+ 1369  git status
+ 1370  rails routes
+ 1371  git status
+ 1372  git add .
+ 1373  git commit -am "a"
+ 1374  git push origin master
+ 1375  rails routes
+ 1376  git status
+ 1377  cd workspace/desafio/todolist2/
+ 1378  rails s
+ 1379  rails routes
+ 1380  cd workspace/desafio/
+ 1381  git clone https://github.com/tacevedo/E20-blog.git
+ 1382  cd E20-blog/
+ 1383  rails s
+ 1384  bundle install
+ 1385  rails s
+ 1386  rails db:create
+ 1387  rails s
+ 1388  rails db:migrate
+ 1389  rails s
+ 1390  rails db:seeds
+ 1391  rake db:seeds
+ 1392  bundle
+ 1393  rails g cancan:ability
+ 1394  rails g migration addRoleToUser role:integer
+ 1395  rails db:migrate
+ 1396  rails s
+ 1397  rails db:seeds
+ 1398  rake db:seeds
+ 1399  rake db::seeds
+ 1400  rails db:seeds
+ 1401  rake db:seeds
+ 1402  rake db:seed
+ 1403  rails c
+ 1404  rails db:migrate
+ 1405  rails c
+ 1406  raild db:rollback
+ 1407  rails db:rollback
+ 1408  rails db:migrate
+ 1409  User.last
+ 1410  rails c
+ 1411  User.all
+ 1412  rails c
+ 1413  rails generate controller Users index
+ 1414  rails routes
+ 1415  git status
+ 1416  git add .
+ 1417  git commit -am "avances"
+ 1418  git push origin master
+ 1419  cd workspace/desafio/
+ 1420  ls
+ 1421  cd E20-blog/
+ 1422  rails s
+ 1423  git status
+ 1424  git add .
+ 1425  git commit -am "avance"
+ 1426  git push origin master
+ 1427  rails s
+ 1428  git status
+ 1429  git add .
+ 1430  git commit -am "algo mas"
+ 1431  git push origin master
+ 1432  rails s
+ 1433  git add .
+ 1434  git commit -am "algo"
+ 1435  git push origin master
+ 1436  rails s
+ 1437  git status
+ 1438  git add .
+ 1439  git commit -am "algo"
+ 1440  git push origin master
+ 1441  rails routes
+ 1442  git clone https://github.com/tacevedo/ecommerce-base.git
+ 1443  ls
+ 1444  cd ecommerce-base/
+ 1445  rails db:migrate
+ 1446  bundle
+ 1447  bundle install
+ 1448  rails db:migrate
+ 1449  rails s
+ 1450  cd ..
+ 1451  ls
+ 1452  cd E20-blog/
+ 1453  rails s
+ 1454  bundle
+ 1455  rails s
+ 1456  cd ..
+ 1457  sudo apt-get update
+ 1458  sudo apt-get upgrade
+ 1459  rails new carrierwave
+ 1460  cd carrierwave/
+ 1461  rails g scaffold imagen url name
+ 1462  bundle
+ 1463  rails g uploader photo
+ 1464  mount_uploader :photo, id: :photo_image
+ 1465  bundle
+ 1466  mount_uploader :photo, id: :photo_image
+ 1467  rails s
+ 1468  rails db:migrate
+ 1469  rails s
+ 1470  bundle
+ 1471  sudo apt-get install imagemagic
+ 1472  bundle
+ 1473  rails s
+ 1474  git init
+ 1475  git remote add origin https://github.com/tacevedo/carrierwavebasic.git
+ 1476  git push origin master
+ 1477  git remote add origin https://github.com/tacevedo/carrierwavebasic.git
+ 1478  git add .
+ 1479  git commit -am "inicia"
+ 1480  git push origin master
+ 1481  git status
+ 1482  rails s
+ 1483  cd workspace/desafio/
+ 1484  psql
+ 1485  sudo su - postgres
+ 1486  rails new final -d final
+ 1487  rails new final -d postgres
+ 1488  rails new final -d postgresql
+ 1489  cd final/
+ 1490  ls
+ 1491  bundle
+ 1492  rails g devise:install
+ 1493  rails g devise user
+ 1494  rails g devise:views
+ 1495  rails s
+ 1496  rails db:migrate
+ 1497  rails generate devise:controller users
+ 1498  rails generate devise:controllers users
+ 1499  rails db:migrate
+ 1500  rails s
+ 1501  cd workspace/desafio/final/
+ 1502  rails s
+ 1503  rails db:create
+ 1504  rails db:migrate
+ 1505  rails s
+ 1506  rails routes
+ 1507  rails s
+ 1508  cd desafio/
+ 1509  git clone https://github.com/tacevedo/E23CP2A1.git
+ 1510  cd E23CP2A1/
+ 1511  git branch
+ 1512  git branch tam
+ 1513  git branch
+ 1514  git checkout tam 
+ 1515  git status
+ 1516  git add .
+ 1517  git commit -am "casi casi"
+ 1518  git push origin tam
+ 1519  git checkout master
+ 1520  git add .
+ 1521  git commit -am "casi casi"
+ 1522  git push origin tam
+ 1523  git checkout master
+ 1524  git pull origin master
+ 1525  git merge tam
+ 1526  git status
+ 1527  git push origin master
+ 1528  git status
+ 1529  git add .
+ 1530  git commit -am "ok"
+ 1531  git push origin master
+ 1532  cd  workspace/desafio/
+ 1533  rails s
+ 1534  cd final/
+ 1535  rails s
+ 1536  apt-get install yarn
+ 1537  sudo apt-get install yarn
+ 1538  sudo apt-get update
+ 1539  sudo apt-get upgrade
+ 1540  sudo apt-get update
+ 1541  sudo apt-get install yarn
+ 1542  sudo npm install yarn -g
+ 1543  rails new jqueryknob
+ 1544  yarn add jquery-knob
+ 1545  sudo yarn add jquery-knob
+ 1546  yarn -v
+ 1547  npm install yarn -g
+ 1548  yarn -v
+ 1549  yarn add jquery-knob
+ 1550  rails s
+ 1551  cd jqueryknob/
+ 1552  yarn add jquery-knob
+ 1553  rails s
+ 1554  rails g controller pages index
+ 1555  yarn add jquery
+ 1556  git init
+ 1557  git add .
+ 1558  git commit -am "ok"
+ 1559  git push origin master
+ 1560  git remote add origin https://github.com/tacevedo/jqueryKnob.git
+ 1561  git push origin master
+ 1562  rails new exchanges -d postgresql
+ 1563  cd exchanges/
+ 1564  rails db:create
+ 1565  rails g model user name username email:integer
+ 1566  cd ..
+ 1567  rails new exchanges -d postgresql
+ 1568  cd exchanges/
+ 1569  rails db:create
+ 1570  psql
+ 1571  rails g model user name username email id:integer
+ 1572  rails db:migrate CreateUsers
+ 1573  rails d migration CreateUsers
+ 1574  rails g model exchange id:integer name url
+ 1575  rails g model currency id:integer name
+ 1576  rails db:migrate
+ 1577  rails d migration CreateExchanges
+ 1578  rails d migration CreateCurrencies
+ 1579  rails g model currency name
+ 1580  rails db:migrate
+ 1581  rail g model exchange name url 
+ 1582  rails g model exchange name url 
+ 1583  rails new -d postgresql
+ 1584  rails new exchanges -d postgresql
+ 1585  rail g model echange name url
+ 1586  rails g model echange name url
+ 1587  cd exchanges/
+ 1588  rails g model echange name url
+ 1589  rails db:migrate
+ 1590  rails g model currency name
+ 1591  rails db:migrate
+ 1592  rails s
+ 1593  rails db:migrate
+ 1594  rails db:drop
+ 1595  cd ..
+ 1596  rails new project -d postgresql
+ 1597  cd project/
+ 1598  rails db:create
+ 1599  rails g model echange name url
+ 1600  rails g model currency name
+ 1601  rails db:migrate
+ 1602  rails s
+ 1603  cd ..
+ 1604  rails g model change exchange:refereneces currency:references
+ 1605  rails d migration CreateChanges
+ 1606  rails g model change exchange:references currency:references
+ 1607  rails db:migrate
+ 1608  rails new otro -d postgres
+ 1609  rails new otro -d postgresql
+ 1610  cd otro/
+ 1611  rails db:create
+ 1612  rails g model echange id:integer name url
+ 1613  rails db:migrate
+ 1614  pswl
+ 1615  psql
+ 1616  sudo su - postgres
+ 1617  rails new otro2 -d postgresql
+ 1618  rails db:create
+ 1619  cd otro2/
+ 1620  rails db:create
+ 1621  rails g model exchange id:integer name url
+ 1622  rails db:migrate
+ 1623  rails g model exchange name url
+ 1624  rails g model currency name
+ 1625  rails g model change
+ 1626  rails db:migrate
+ 1627  rails db:create
+ 1628  db:migrate:status
+ 1629  rails db:migrate:status
+ 1630  rails db:migrate:reset
+ 1631  rails db:migrate:status
+ 1632  rails db:migrate
+ 1633  git clone https://github.com/tacevedo/E25CP1A1.git
+ 1634  cd E25CP1A1/
+ 1635  rails new actividad
+ 1636  cd actividad/
+ 1637  rails g scaffold Post title
+ 1638  rails s
+ 1639  rails db:migrate
+ 1640  rails s
+ 1641  cd ..
+ 1642  git status
+ 1643  git add .
+ 1644  git commit -am "avance"
+ 1645  git push 
+ 1646  git add .
+ 1647  git commit -am "avance"
+ 1648  git pus origin master
+ 1649  git push origin master
+ 1650  cd workspace/
+ 1651  git clone https://tacevedo@bitbucket.org/tacevedo/g1_nba_planes.git
+ 1652  cd g1_nba_planes/
+ 1653  cd workspace/g1_nba_planes/
+ 1654  git status
+ 1655  git add .
+ 1656  git commit -am "casi"
+ 1657  git push origin master
+ 1658  cd workspace/desafio/
+ 1659  ls
+ 1660  cd second_app
+ 1661  ls
+ 1662  history > historial.txt
+ 1663  cd ..
+ 1664  rails  new a - postgresql
+ 1665  rails db:create
+ 1666  cd 
+ 1667  rails db:create
+ 1668  rails g model exchange name url
+ 1669  rails db:migrate
+ 1670  rails g migrate AddIdToExchange id:integer
+ 1671  rails generate migrate AddIdToExchange id:integer
+ 1672  rails generate migration AddIdToExchange id:integer
+ 1673  rails db:migrate
+ 1674  cd ..
+ 1675  rails  new b - postgresql
+ 1676  cd b
+ 1677  rails db:create
+ 1678  rails g model exchange id:integer name url
+ 1679  rails db:migrat
+ 1680  rails db:migrate
+ 1681  cd ..
+ 1682  rails new c - postgresql
+ 1683  cd c
+ 1684  rails db:create
+ 1685  rails g model exchange name url
+ 1686  rails g model currency name
+ 1687  rails db:migrate
+ 1688  rails g migration CreateJoinTableExchangesCurrencies exchanges currencies
+ 1689  rails db:migrate
+ 1690  rails s
+ 1691  history
+ 1692  rails g model join exchanges:references currencies:references date value
+ 1693  rails db:migrate
+ 1694  rails g model currencies_exchanges name
+ 1695  rails db:migrate
+ 1696  cd ..
+ 1697  rails new d - postgres
+ 1698  cd d/
+ 1699  rails db:create
+ 1700  rails g model exchange name url
+ 1701  rails g model currency name
+ 1702  rails db:migrate
+ 1703  rails g model historic currencies:references exchanges:references  date:date value:integer
+ 1704  rails db:migrate
+ 1705  cd ..
+ 1706  rails new bitApp
+ 1707  rails new bitApp -d postgres
+ 1708  rails new bitApp -d postgresF
+ 1709  rails new bitApp -d postgresql
+ 1710  cd bitApp/
+ 1711  rails db:create
+ 1712  rails g model exchange name url
+ 1713  rails g model currency name
+ 1714  rails db:migrate
+ 1715  rails g devise:install
+ 1716  bundle install
+ 1717  rails g devise:install
+ 1718  rails g devise user
+ 1719  rails g devise:views
+ 1720  rails db:migrate
+ 1721  rails g model historic users:references exchanges:references currencies:references date:date value:decimal
+ 1722  rails db:migrate
+ 1723  git commit -m "commit 1"
+ 1724  git add .
+ 1725  git commit -m "commit 1"
+ 1726  git remote add origin https://github.com/tacevedo/bitApp.git
+ 1727  git push origin master
+ 1728  rails s
+ 1729  rails g controller home
+ 1730  git checkout -b development
+ 1731  git status
+ 1732  git add .
+ 1733  git commit -am "avance home y nav"
+ 1734  git push origin master
+ 1735  git status
+ 1736  git push origin development
+ 1737  git checkout -b feature/navbarDevise
+ 1738  rails g devise:controller users
+ 1739  rails g devise:controllers users
+ 1740  git status
+ 1741  git add .
+ 1742  git commit -am "color nav"
+ 1743  git push origin navbarDevise
+ 1744  git push origin feature/navbarDevise 
+ 1745  cd workspace/desafio/bitApp/
+ 1746  rails s
+ 1747  git status
+ 1748  git add .
+ 1749  git commit -am "estilos "
+ 1750  git push origin feature/navbarDevise 
+ 1751  rails s
+ 1752  git status
+ 1753  git add .
+ 1754  git commit -am "add font"
+ 1755  git push origin feature/navbarDevise 
+ 1756  git add .
+ 1757  git commit -am "estilos"
+ 1758  git push origin feature/navbarDevise 
+ 1759  apm instsall autocomplete-plus
+ 1760  apm instsall autocomplete+
+ 1761  apm install autocomplete-plus
+ 1762  apm install autocomplete-javascript
+ 1763  apm install autocomplete-ternjs
+ 1764  bundle
+ 1765  git branc
+ 1766  git branch
+ 1767  git status
+ 1768  rails s
+ 1769  bundle instal
+ 1770  bundle install
+ 1771  rails s
+ 1772  git status
+ 1773  bundle
+ 1774  bin/rails credentials:edit
+ 1775  gedit bin/rails credentials:edit
+ 1776  rails router
+ 1777  rails routes
+ 1778  .bin/rails credentials:edit
+ 1779  rails routes
+ 1780  bin/rails credentials:edit
+ 1781  EDITOR="mate --wait" bin/rails credentials:edit
+ 1782  bin/rails credentials:edit
+ 1783  EDITOR="nano" bin/rails credentials:edit
+ 1784  rails routes
+ 1785  bundle install
+ 1786  gem install 'google_sign_in'
+ 1787  git checkout .
+ 1788  git status
+ 1789  rm app/controllers/logins_controller.rb 
+ 1790  ls
+ 1791  git status
+ 1792  cd workspace/desafio/bitApp/
+ 1793  rails s
+ 1794  git status
+ 1795  git commit -am "previene alguien no logueado entre a dashboard"
+ 1796  git push origin master
+ 1797  git push origin userDashboard 
+ 1798  rails routes
+ 1799  git checkout -b userDashboard
+ 1800  git checkout 
+ 1801  git status
+ 1802  git add .
+ 1803  git commit -am "base"
+ 1804  git push origin userDashboard 
+ 1805  ls
+ 1806  cd workspace/desafio/bitApp/
+ 1807  git status
+ 1808  git stash
+ 1809  git status
+ 1810  git checkout master
+ 1811  ls
+ 1812  git merge userDashboard 
+ 1813  git status
+ 1814  git log -n 3
+ 1815  git log
+ 1816  git checkout -b rolesAdmin
+ 1817  git stash pop
+ 1818  rails g migration addRoleToUser role:integer def
+ 1819  rails db:migrate
+ 1820  rails db:seeds
+ 1821  rails db:seed
+ 1822  rails s
+ 1823  rails db:migrate
+ 1824  git status
+ 1825  git add .
+ 1826  git commit -am "ruta admin, user role enum"
+ 1827  git push origin rolesAdmin 
+ 1828  git push origin rolesAdmin
+ 1829  cd  workspace/desafio/bitApp/
+ 1830  rails s
+ 1831  cd bitApp/
+ 1832  ls
+ 1833  bundle
+ 1834  rails g cancan:ability
+ 1835  rails s
+ 1836  bundle
+ 1837  rails g migration addOmniauthToUser provider:string uid:string
+ 1838  rails db:migrate
+ 1839  cd ..
+ 1840  ls
+ 1841  cd ..
+ 1842  ls
+ 1843  gedit ~/.bash-profile
+ 1844  ls -a
+ 1845  gedit ~/.bashrc
+ 1846  echo FACE_APP_ID
+ 1847  printenv FACE_APP_ID
+ 1848  gedit ~/.bashrc
+ 1849  printenv FACE_APP_ID
+ 1850  printenv FACE_APP_SECRET
+ 1851  cd workspace/desafio/bitApp/
+ 1852  rails s
+ 1853  rails routes
+ 1854  git status
+ 1855  git add .
+ 1856  git commit -am "cancan y login with facebook"
+ 1857  git push origin rolesAdmin 
+ 1858  lshw
+ 1859  cd workspace/desafio/bitApp/
+ 1860  rails s
+ 1861  ls
+ 1862  rails s
+ 1863  git status
+ 1864  cd workspace/desafio/bitApp/
+ 1865  rails s
+ 1866  bundle
+ 1867  rails s
+ 1868  rails routess
+ 1869  rails routes
+ 1870  cd ..
+ 1871  git clone https://github.com/tacevedo/blog-spoonacular-api.git
+ 1872  cd blog-spoonacular-api/
+ 1873  rails s
+ 1874  bundle install
+ 1875  rails s
+ 1876  git branch
+ 1877  git checkout master 
+ 1878  git commit -am "recepies - pruebas api"
+ 1879  git checkout master 
+ 1880  ls
+ 1881  git branch
+ 1882  git merge feature/navbarDevise 
+ 1883  git merge userDashboard 
+ 1884  git status
+ 1885  git push origin master
+ 1886  heroku login
+ 1887  git init
+ 1888  heroku git:remote -a bitapptam
+ 1889  git add .
+ 1890  git commit -am "heroku"
+ 1891  gi push heroku master
+ 1892  git push heroku master
+ 1893  heroku open
+ 1894  git branch
+ 1895  git checkout rolesAdmin 
+ 1896  rails s
+ 1897  git status
+ 1898  git add .
+ 1899  git commit -am "-algo"
+ 1900  git push origin rolesAdmin 
+ 1901  git checkout master 
+ 1902  git merge rolesAdmin 
+ 1903  git branch
+ 1904  git add .
+ 1905  git commit -am "roles admin"
+ 1906  git push heroku master
+ 1907  heroku open
+ 1908  rails s
+ 1909  heroku run rails db:migrate
+ 1910  open ~/bashrc 
+ 1911  gedit open ~/bashrc 
+ 1912  gedit ~/bashrc 
+ 1913  gedit ~/bashrc -t
+ 1914  heroku config:set FACE_APP_ID=1793236444122322
+ 1915  heroku run rails db:migrate
+ 1916  heroku open
+ 1917  heroku run rails db:seeds
+ 1918  heroku config:set FACE_APP_SECRET=d02511ecfe24c4149489fdc0cf06bcbb
+ 1919  heroku run rails db:migrate
+ 1920  heroku open
+ 1921  heroku run rails db:migrate
+ 1922  heroku open
+ 1923  heroku run rails db:migrate
+ 1924  ruby -v
+ 1925  rails -v
+ 1926  cd workspace/desafio/bitApp/
+ 1927  rails s
+ 1928  yarn add chart.js
+ 1929  rails s
+ 1930  yarn remove chart.js
+ 1931  bundle
+ 1932  rails s
+ 1933  git stash
+ 1934  git checkout -b appisConnection/chart
+ 1935  git stash pop
+ 1936  git status
+ 1937  rails s
+ 1938  bundle
+ 1939  rails s
+ 1940  git status
+ 1941  git add .
+ 1942  git commit -am "conexion una api exchange + algo grafico"
+ 1943  git push origin appisConnection/chart 
+ 1944  rails s
+ 1945  git status
+ 1946  git add .
+ 1947  git commit -am "label axis"
+ 1948  git push origin appisConnection/chart 
+ 1949  rails s
+ 1950  git status
+ 1951  git add .
+ 1952  git status
+ 1953  git commit -am "avance"
+ 1954  git push origin master
+ 1955  git push origin appisConnection/chart 
+ 1956  rails s
+ 1957  rails db:seeds
+ 1958  rails db:seed
+ 1959  rails c
+ 1960  rails db:seed
+ 1961  rails c
+ 1962  ls
+ 1963  rake db:seed
+ 1964  rails c
+ 1965  rake db:seeds
+ 1966  rake db:seed
+ 1967  rake db:setup
+ 1968  rake db:seed
+ 1969  rails db:seed
+ 1970  rails c
+ 1971  rake db:seed
+ 1972  rails s
+ 1973  rails c
+ 1974  rake db:seed
+ 1975  rails c
+ 1976  rails db:migrate
+ 1977  rails db:Seed
+ 1978  rails db:seed
+ 1979  rails s
+ 1980  rails db:seed
+ 1981  rails db:seed
+ 1982  rails c
+ 1983  cd workspace/desafio/bitApp/
+ 1984  rails db:seed
+ 1985  rails s
+ 1986  bundle
+ 1987  rails g active_admin:install
+ 1988  rails db:migrate
+ 1989  rails routes
+ 1990  rails s
+ 1991  rails g active_admin:resource Currency
+ 1992  rails s
+ 1993  bindle
+ 1994  bundle
+ 1995  rails s
+ 1996  bundle
+ 1997  rails s
+ 1998  bundle
+ 1999  rails s
+ 2000  rails 
+ 2001  rails s
+ 2002  git status
+ 2003  git add .
+ 2004  git commt -am "favicon"
+ 2005  git push origin appisConnection/chart 
+ 2006  git status
+ 2007  rails s
+ 2008  git push origin development 
+ 2009  rails s
+ 2010  bundle
+ 2011  rails s
+ 2012  bundle
+ 2013  rails s
+ 2014  git status
+ 2015  git add .
+ 2016  git commit -am "avances"
+ 2017  git push origin appisConnection/chart 
+ 2018  git push origin appisConnection/chart:development 
+ 2019  history > hi
