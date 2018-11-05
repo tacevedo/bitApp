@@ -1,5 +1,5 @@
 //window.onload = function() {
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('turbolinks:load', function(){
   var ctx = document.getElementById("myChart").getContext('2d');
   var data ={
       // labels: ["fecha1", "fecha2", "fecha3", "fecha4", "fecha6", "fecha6"],
@@ -62,6 +62,8 @@ document.addEventListener('DOMContentLoaded', function(){
     success: function(data) {
       var bitbay = JSON.stringify(data.bitbay);
       var blockchain = JSON.stringify(data.blockchain);
+
+
       $("#bit1").append("<p>" + blockchain + "</p>");
       $("#bit2").append("<p>" + bitbay + "</p>");
       // $("#bit2usd").append("<p> Dolar" + bitbay.USD + "</p>");

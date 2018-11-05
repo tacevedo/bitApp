@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   root to: "home#home"
   get 'dashboard', to: 'dashboard#index'
   get 'info', to: 'dashboard#exchange_data'
-  get 'administration', to: 'administration#index'
+  resource :administration, only: [:index]
 end

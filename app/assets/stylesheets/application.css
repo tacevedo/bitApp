@@ -16,12 +16,13 @@
 html,body{
   height: 100%;
   font-family: 'Nanum Gothic', sans-serif !important;
+  color: #f6f6db;
 }
 nav{
   background-color: #1d5e77;
+  color: #f6f6db;
 }
 nav a.navbar-brand:link{
-  /* background-color: #f6f6db */
   background: #f6f6db;
   background: -moz-linear-gradient(top, #f6f6db 0%, #f2b2b5 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, #f6f6db), color-stop(100%, #f2b2b5));
@@ -34,6 +35,7 @@ nav a.navbar-brand:link{
   border-radius: 3px;
   font-weight: bold;
 }
+
 nav a{  color: #fff;}
 nav a:hover{  color: #f6f6db;}
 nav a,
@@ -42,15 +44,13 @@ nav a:visited {
   color: #f6f6db;
   text-decoration: none;
 }
-.dropdown-menu li a {
+/* .dropdown-menu li a {
   color: #1d5e77;
-}
-footer{
-  width: 100%;
-  padding: 20px;
-  color: #fff;
-  background-color: #1d5e77;
+} */
+footer {
   text-align: center;
+  background-color: #1d5e77;
+  padding: 20px;
 }
 
 .container-home{
