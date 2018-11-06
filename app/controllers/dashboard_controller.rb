@@ -2,7 +2,12 @@ class DashboardController < ApplicationController
   before_action :authenticate_user!
 
   def index
-      @data = ExchangeInfo::Ticker.getData()
+    @data = ExchangeInfo::Ticker.getData()
+    @bitusd = @data["bitbay"][:USD]
+    @biteur = @data["bitbay"][:EUR]
+    @blockusd = @data["blockchain"][:USD]
+    @blockeur = @data["blockchain"][:EUR]
+
     @ex1actual = @data
     @currencies = Currency.pluck(:name, :id)
     @exchanges = Exchange.pluck(:name, :id)

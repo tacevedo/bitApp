@@ -64,8 +64,8 @@ document.addEventListener('turbolinks:load', function(){
       var blockchain = JSON.stringify(data.blockchain);
 
 
-      $("#bit1").append("<p>" + blockchain + "</p>");
-      $("#bit2").append("<p>" + bitbay + "</p>");
+      // $("#bit1").append("<p>" + blockchain + "</p>");
+      // $("#bit2").append("<p>" + bitbay + "</p>");
       // $("#bit2usd").append("<p> Dolar" + bitbay.USD + "</p>");
       // $("#bit2eur").append("<p> Euro" + bitbay.EUR + "</p>");
       // $("#bit1usd").append("<p> Dolar" + blockchain.USD + "</p>");
